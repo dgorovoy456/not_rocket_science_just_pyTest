@@ -1,0 +1,6 @@
+1. Create project
+2. Create repo
+3. Creat initial commit
+4. Push the commit
+5. Greate .gitignore
+6. Install pytest - pip install pytest
