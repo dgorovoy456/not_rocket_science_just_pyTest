@@ -4,3 +4,22 @@
 4. Push the commit
 5. Greate .gitignore
 6. Install pytest - pip install pytest
+7. SAMPLE COMMANDS
+    pytest
+    pytest -v                                       - verbose
+    pytest -v test_one.py
+    pytest --tb=no                                  - turn off tracebacks
+    pytest --tb=no test_one.py test_two.py
+    pytest --tb=no tests/
+    pytest -vv test_card_fail.py - supper verbose
+    pytest -v test_classes.py::TestEquality
+    pytest test_classes.py::TestEquality::test_equality -v
+    pytest -v -k TestEquality
+    pytest -v -k TestEquali
+    pytest -v -k "TestEquality and not diff_ids"
+    pytest -v --tb=no -k "(dict or ids) and not TestEquality"
+    pip list --not-required - to see top level packages
+
+
+
+8. Create venv python -m virtualenv > source venv/bin/activate > deactivate
