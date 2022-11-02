@@ -23,6 +23,7 @@
 #     pytest --fixtures - to check which and where fixtures are defined
 #     pytest --fixtures-per-test test_count.py::test_empty - the same for each test
 #     pytest -s test_autouse.py to see print("Some") messages in output
+#     pytest --basetemp=mydir - to specify temp base dir
 
 
 
