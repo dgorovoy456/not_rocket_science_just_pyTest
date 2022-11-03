@@ -24,6 +24,9 @@
 #     pytest --fixtures-per-test test_count.py::test_empty - the same for each test
 #     pytest -s test_autouse.py to see print("Some") messages in output
 #     pytest --basetemp=mydir - to specify temp base dir
+#     pytest -v -ra test_skip.py - to report reason for a different test results, 'a' means all except passed
+#     pytest -v -m 'smoke or exception' test_start.py - to run tests with custom marks 'smoke' or 'exception'
+#     pytest -v -m "(exception or smoke) and (not finish)"
 
 
 
